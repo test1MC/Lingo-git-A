@@ -31,7 +31,7 @@
         name="MadCap Statistics">
         <count
           count-type="total"
-          unit="segment">6</count>
+          unit="segment">7</count>
         <count
           count-type="x-subflow"
           unit="trans-unit">0</count>
@@ -55,16 +55,17 @@
             MadCap:matchPercent="0" /></target></trans-unit><trans-unit
         id="2"
         restype="x-xml-p"
-        phase-name="pretrans"><source>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</source><seg-source><mrk
+        phase-name="pretrans"><source>rbert</source><seg-source><mrk
             mtype="seg"
-            mid="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mrk></seg-source><target
+            mid="1">rbert</mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
             MadCap:segmentStatus="Untranslated"
-            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+            MadCap:matchPercent="0"
+            MadCap:diff="New" /></target></trans-unit><trans-unit
         id="3"
-        restype="x-xml-li"
+        restype="x-xml-p"
         phase-name="pretrans"><source>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</source><seg-source><mrk
             mtype="seg"
             mid="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mrk></seg-source><target
@@ -75,6 +76,16 @@
             MadCap:matchPercent="0" /></target></trans-unit><trans-unit
         id="4"
         restype="x-xml-li"
+        phase-name="pretrans"><source>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-li"
         phase-name="pretrans"><source>Egestas pretium aenean pharetra magna ac placerat vestibulum lectus mauris.</source><seg-source><mrk
             mtype="seg"
             mid="1">Egestas pretium aenean pharetra magna ac placerat vestibulum lectus mauris.</mrk></seg-source><target
@@ -83,7 +94,7 @@
             mid="1"
             MadCap:segmentStatus="Untranslated"
             MadCap:matchPercent="0" /></target></trans-unit><trans-unit
-        id="5"
+        id="6"
         restype="x-xml-li"
         phase-name="pretrans"><source>Sed viverra tellus in hac habitasse platea.</source><seg-source><mrk
             mtype="seg"
@@ -93,7 +104,7 @@
             mid="1"
             MadCap:segmentStatus="Untranslated"
             MadCap:matchPercent="0" /></target></trans-unit><trans-unit
-        id="6"
+        id="7"
         restype="x-xml-li"
         phase-name="pretrans"><source>Arcu odio ut sem nulla pharetra diam sit amet nisl.</source><seg-source><mrk
             mtype="seg"
